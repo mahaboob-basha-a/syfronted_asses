@@ -86,3 +86,33 @@
         font-size: 14px;
     }
 }
+@media screen and (max-width:620px) {
+    .form-container-login {
+        width: 290px;
+    }
+    .form-container-login h1{
+        font-size: 22px;
+    }
+    .form-container-login .input-container-login{
+        height: 40px;
+
+    }
+    .form-container-login label{
+        font-size: 13px;
+    }
+    .form-container-login .input-container-login input{
+        height: 30px;
+        width: 250px;
+    }
+    .form-container-login .input-container-login{
+        margin-bottom: 14px;
+    }
+    .form-container-login p{
+        margin-top: 0px;
+    }
+    .form-container-login .submit-btn-login{
+        height: 30px;
+        width: 260px;
+        font-size: 14px;
+    }
+}
