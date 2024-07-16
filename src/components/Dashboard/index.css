@@ -1,0 +1,35 @@
+.dashboard-page{
+    height: 100vh;
+    width: 100vw;
+    background: url('../../assets/blue-fullbackground.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard-proflile-card{
+    height: 450px;
+    width: 550px;
+    background-color: #fff;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 5px;
+}
+.dashboard-proflile-card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+.dashboard-proflile-card h1{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+@media screen and (max-width:620px) {
+    .dashboard-proflile-card{
+        width: 360px;
+        height: 450px;
+    }
+}

@@ -1,0 +1,32 @@
+.not-found-page{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('../../assets/blue-fullbackground.jpg');
+    background-size: cover;
+    gap: 15px;
+}
+.not-found-page img{
+    width: 50%;
+    border-radius: 8px;
+}
+.not-found-page a{
+    text-decoration: none;
+    color: #fff;
+}
+.not-found-page button{
+    width: 100px;
+    height: 40px;
+    background-color: #005270;
+    color: #fff;
+    font-size: 14px;
+    transition: all linear .5s;
+}
+.not-found-page button:hover{
+    background-color: #005270;
+    transform: scale(1.05);
+    box-shadow: #f3f3f6be 0px 0px 8px 1px;
+}

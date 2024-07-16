@@ -1,0 +1,225 @@
+.register-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('../../assets/blue-fullbackground.jpg');
+    background-size: cover;
+    gap: 0px;
+}
+.register-card{
+    width: 900px;
+    height: 580px;
+    box-shadow: 15px 15px 30px #00000040;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.background-img{
+    height: 100%;
+    width: 520px;
+    background: url('../../assets/bluebackground.jpg');
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background-img .right-content{
+    width: 320px;
+    height: 200px;
+    color: #fff;
+    font-size: 14px;
+}
+.background-img .right-content h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.form-container{
+    height: 96%;
+    width: calc(100% - 530px);
+}
+.form-container p{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 35px;
+}
+.form-container h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.form-container .input-container{
+    height: 60px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1px;
+}
+.input-container label{
+    font-size: 14px;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+
+}
+.input-container input{
+    height: 35px;
+    border: 1px solid #00000060;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+.form-container .checkbox-container{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.form-container .checkbox-container label{
+    font-size: 12px;
+    font-weight: 500;
+}
+.form-container .checkbox-container input{
+    height: 20px;
+}
+.form-container .submit-btn{
+    width: 300px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    background-color: #005270;
+    color: #fff;
+    margin-top: 8px;
+}
+@media screen and (min-width:621px) and (max-width:1200px) {
+    .register-card{
+        width: 580px;
+        height: 450px;
+        gap: 10px;
+    }
+    .background-img{
+        width: 300px;
+    }
+    .background-img .right-content{
+        width: 190px;
+        font-size: 12px;
+    }
+    .background-img .right-content h1{
+        font-size: 20px;
+    }
+    .form-container {
+        width: calc(100% - 255px);
+    }
+    .form-container h1{
+        font-size: 18px;
+    }
+    .form-container .input-container{
+        height: 40px;
+
+    }
+    .form-container label{
+        font-size: 13px;
+    }
+    .form-container .input-container input{
+        height: 30px;
+        width: 250px;
+    }
+    .form-container .input-container{
+        margin-bottom: 7px;
+    }
+    .form-container p{
+        margin-top: 0px;
+    }
+    .form-container .submit-btn{
+        height: 30px;
+        width: 260px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .register-card{
+        width: 350px;
+        height: 500px;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .background-img{
+        width: 100%;
+        height: 120px;
+        border-radius: 0;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .background-img .right-content{
+        width: 250px;
+        height: 100px;
+        font-size: 8px;
+        text-align: center;
+        align-content: center;
+    }
+    .background-img .right-content h1{
+        font-size: 16px;
+        display: inline;
+    }
+    .background-img .right-content p{
+        display: none;
+    }
+    .form-container {
+        width: 80%;
+        height: 350px;
+        z-index: 10;
+    }
+    .form-container h1{
+        font-size: 18px;
+    }
+    .form-container .input-container{
+        height: 27px;
+
+    }
+    .form-container label{
+        font-size: 10px;
+    }
+    .form-container .input-container input{
+        height: 25px;
+        width: 200px;
+    }
+    .form-container .input-container{
+        margin-bottom: 13px;
+    }
+    .form-container p{
+        margin-top: 0px;
+        margin-left: 4px;
+        font-size: 11px;
+    }
+    .form-container .submit-btn{
+        height: 25px;
+        width: 200px;
+        font-size: 12px;
+    }
+    .form-container form .checkbox-container {
+        display: flex;
+        align-items: center;
+        height: 12px;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .form-container .checkbox-container input{
+        height: 11px;
+    }
+    .form-container .checkbox-container label{
+        font-size: 10px;
+    }
+}
